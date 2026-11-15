@@ -1,0 +1,16 @@
+git config --global user.name / user.email : Sets the identity attached to your commits.
+git init : Initializes a new Git repository in the current folder.
+git branch -M main : Renames the current branch to main.
+git add . : Stages all changed files for the next commit.
+git add <file> : Stages one specific file.
+git commit -m "msg" : Saves staged changes as a commit with a message.
+git branch feature : Creates a new branch named feature.
+git checkout feature : Switches to the feature branch.
+git checkout main : Switches back to the main branch.
+git merge --no-ff feature : Merges feature into main, always creating a merge commit.
+git log --oneline --graph --all : Shows compact commit history with branch graph.
+git status : Shows staged, unstaged and untracked files.
+git reset --hard HEAD~1 : Undoes the last commit and discards its changes.
+git remote add origin <url> : Links the local repo to the GitHub repository.
+git push -u origin main : Pushes main to GitHub and sets it as the default upstream.
+git push origin feature : Pushes the feature branch to GitHub.
